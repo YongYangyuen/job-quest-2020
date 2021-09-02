@@ -1,0 +1,27 @@
+{
+  "name": "basic-js-ts",
+  "version": "1.0.0",
+  "description": "Thank you for your interest in working at Orange Cap Innovative. First, we would like to take a simple test on your coding skill.",
+  "main": "part-a-2nd-max.js",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mongodb": "^4.1.1",
+    "mongoose": "^6.0.3",
+    "moongoose": "^0.0.5"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/YongYangyuen/job-quest-2020.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/YongYangyuen/job-quest-2020/issues"
+  },
+  "homepage": "https://github.com/YongYangyuen/job-quest-2020#readme"
+}
