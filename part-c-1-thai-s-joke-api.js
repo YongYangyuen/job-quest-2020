@@ -5,12 +5,10 @@ const Joke = require('./models/joke');
 
 mongoose.connect('mongodb://localhost:27017/node-api-101', { useNewUrlParser: true })
 mongoose.connection.on('error', err => {
-    console.error('MongoDB error', err)
+    console.error('MongoDB error', err);
 });
 
 app.use(express.json());
-
-const jokes = [{}];
 
 app.get('/', async(req, res) => {
     const jokes = await Joke.find({});
