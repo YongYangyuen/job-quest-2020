@@ -17,4 +17,6 @@ function fizzBuzz(number) {
     }
 }
 
-console.log(fizzBuzz(45));
+var input = 45; // Test your input here
+
+console.log(fizzBuzz(input));

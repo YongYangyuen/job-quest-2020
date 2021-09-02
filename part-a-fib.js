@@ -4,4 +4,6 @@ function fib(n) {
     else return fib(n - 2) + fib(n - 1);
 }
 
-console.log(fib(12));
+var input = 12; // Test your input here
+
+console.log(fib(input));

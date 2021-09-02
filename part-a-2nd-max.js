@@ -1,4 +1,4 @@
-var array = [];
+var array = []; // Test your input here
 
 function secondMax(array) {
     if (array.length == 0) throw 'Error!';

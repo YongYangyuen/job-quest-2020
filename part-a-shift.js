@@ -1,4 +1,4 @@
-var array = [1, 2, 3, 4, 5];
+var input = [1, 2, 3, 4, 5]; // Test your input here
 
 function shift(array, direction, number) {
     if (direction == 'right') {
@@ -12,5 +12,6 @@ function shift(array, direction, number) {
     }
 }
 
-shift(array, 'right', 3);
-console.log(array);
+shift(input, 'right', 3);
+
+console.log(input);
