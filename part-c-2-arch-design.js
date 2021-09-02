@@ -96,7 +96,7 @@ GET /               Get all runners.
 
 GET /:id            Get runner by id.
 
-POST /form           Validate form and save draft.
+POST /form          Validate form and save draft.
     Body 
     {
     personalInfo: {
